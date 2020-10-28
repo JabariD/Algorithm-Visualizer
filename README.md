@@ -1,3 +1,32 @@
+# Algorithm  Visualizer Documentation 👀
+This algorithm visualizer is a web application that is a helpful tool to understand popular data structures and algorithms.
+<iframe src="https://giphy.com/embed/51Uiuy5QBZNkoF3b2Z" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-boy-51Uiuy5QBZNkoF3b2Z"></a></p>
+
+### Interested in Contributing? Please Do!
+
+
+## Background
+This project started from the problem I had studying Data Structures and Algorithms. I created notes, went through tutorial websites, watched youtube videos, but I wanted something that would make the content stick a little more. 
+
+Algorithms have always been a topic that I was interested in, but I could never understand complex ones like I wanted to. I also have a love for building web applications. So I thought... "Hm, can I combine my two interests?".
+
+## Overview
+Using `create-react-app` I will
+
+## Requirements
+The user will be able to create custom input, which allows them.
+The user will be able to change the speed of the algorithm.
+The user will be able to see pseudocode of the algorithm.
+The user will be able to see a description of the algorithm which includes it's time/space complexity, real-word applications and use cases, and coding interview problems in which it is used.
+
+## Design
+The design of the project is to make it as easy as possible for additional algorithms and data structures to be created.
+
+## Future Developments
+Adding more algorithms.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
