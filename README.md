@@ -1,6 +1,6 @@
 # Algorithm  Visualizer Documentation 👀
 This algorithm visualizer is a web application that is a helpful tool to understand popular data structures and algorithms.
-<iframe src="https://giphy.com/embed/51Uiuy5QBZNkoF3b2Z" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-boy-51Uiuy5QBZNkoF3b2Z"></a></p>
+![Alt Text](https://media.giphy.com/media/51Uiuy5QBZNkoF3b2Z/giphy.gif)
 
 ### Interested in Contributing? Please Do!
 
