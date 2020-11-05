@@ -27,6 +27,10 @@ ul {
     margin-bottom: 0;
 }
 
+ul a.link:hover {
+    color: red;
+}
+
 li {
     display: inline-block;
     margin: 10px;
