@@ -7,36 +7,39 @@ import {Link} from "react-router-dom";
 import graphAlgorithmPicture from './assets/graph-algorithm.png';
 import hologram from './assets/box.gif';
 
+/** Displays the homepage */
 export class HomePage extends Component {
     render() {
         return (
             <div>
+                
                 <header>
-                    <img style={{float: "left", border: "5px solid blue"}} src={hologram} alt="description of gif" height="75px" width="75px"/> 
+                    <img style={{float: "left", border: "5px solid blue"}} src={hologram} alt="description of gif" height="60px" width="60px"/> 
                         <ul>
                             <li className="header-title"><Link style={linkStyle} to="/">Algorithm Visualizer</Link></li>
                             <div className="header-right">
                                 <li><Link style={linkStyle} className="link" to="/algorithms">Algorithms</Link></li>
                                 <li>Data Structures</li>
+                                <li>About</li>
                             </div>
                         </ul>
                     
                 </header>
 
-                <section>
-                    <Grid container spacing={10}>
-                        <Grid className="hero" item lg={4}>
-                            <h3>For the visual learners.</h3>
+                <section className="hero" >
+                    <Grid container spacing={3}>
+                        <Grid item lg={5}>
+                            <h3 className="animate__animated animate__fadeIn">For the visual learners.</h3>
                             <Button className="heroButton" variant="outlined" component={Link} to={'algorithms'}>Start Learning.</Button>
                         </Grid>
-                        <Grid item lg={8}>
+                        <Grid item lg={7}>
                             <img src={graphAlgorithmPicture} alt="Alternate text" />
                         </Grid>
                     </Grid>
                 </section>
 
-                <section>
-                    <Grid container className="searchSection">
+                <section className="searchSection">
+                    <Grid container>
                         <Grid item>
                             <div>
                                 Hello

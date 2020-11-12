@@ -3,43 +3,43 @@ body {
 }
 
 /* Header */
-header div {
-    background-color: rgb(182, 241, 250);
-    border-color: black;
+header {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(182, 241, 250); */
 }
 
 .header-title {
     font-size: 2.5em;
     float: left;
+    margin-right: 25px;
 }
 
 .header-right {
-    padding: 7px;
+    padding: 11px;
+    font-family: sans-serif;
     float: right;
 }
+
+.header-right .link:hover {
+    text-decoration: underline solid rgb(182, 241, 250) !important;
+}
+
+
 
 ul {
     list-style: none;
     padding: 0;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-ul a.link:hover {
-    color: red;
 }
 
 li {
     display: inline-block;
     margin: 10px;
     text-align: center;
-    font-size: 1.5em;
-}
-
-header:visited{
-    color: black;
+    font-size: 1.3em;
 }
 
 @media screen and (max-width: 900px) {
@@ -49,17 +49,20 @@ header:visited{
     }
 }
 
-/* Hero Section */
+/* ----------------------- Hero Section */
 
 
 /* Hero title */
+:root {
+    --animate-duration: 2s;
+}
+
 .hero h3 {
     padding: 25px;
-    font-family: "Poppins";
+    font-family: 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
-    line-height: 96px;
+    font-size: 4em; 
     margin-bottom: 24px;
 }
 
@@ -67,6 +70,16 @@ header:visited{
     margin-left: 25px;
     margin-bottom: 100px;
     padding: 20px;
+    background-color: rgb(182, 241, 250);
+}
+
+.hero img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
